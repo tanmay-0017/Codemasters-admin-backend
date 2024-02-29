@@ -24,7 +24,7 @@ app.post('/submit', (req, res) => {
   const answer = req.body.answer;
 
   // Store the answer in the answers object
-  answers[problemName] = answer;
+  answers[problemName] = answer; 
 
   console.log(`Received answer for problem "${problemName}": ${answer}`);
 
