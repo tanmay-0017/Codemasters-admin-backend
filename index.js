@@ -16,7 +16,7 @@ let answerE = "";
 let answerF = "";
 let answerG = "";
 // Middleware to parse incoming JSON data
-app.use(bodyParser.json());
+app.use(bodyParser.json()); 
 
 // Route to handle form submissions
 app.post('/submit', (req, res) => {

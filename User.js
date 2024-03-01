@@ -8,6 +8,6 @@ const userSchema = mongoose.Schema({
     verified: {
         type: Boolean
     }
-}) 
+})  
 
 module.exports = mongoose.model("user" , userSchema);

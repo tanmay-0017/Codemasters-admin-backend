@@ -14,4 +14,4 @@ module.exports = async () => {
     } catch (error) {
         process.exit(1);
     }
-};
+}; 
